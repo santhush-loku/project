@@ -1,7 +1,7 @@
 # project
 1. Install Following Software       
-    MySQL Server 8.0
-    MySQL Workbench
+    MySQL Server 8.0,
+    MySQL Workbench,
     Node v12.16.3
 2. Restore the backup.sql on MySQL Server
 3. Open 'server' folder using CLI and enter 'npm install' command and 'node server.js' command
