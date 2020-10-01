@@ -1,0 +1,30 @@
+#login-component{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    overflow: auto;
+    background-color: #222A35;
+}
+
+#login-component>.card{
+    max-width: 350px;
+    position: relative;
+    margin: 100px auto;
+    border-radius: 0px;
+}
+
+#login-component>.card img{
+    display: block;
+    margin: 40px auto;
+}
+
+#login-component>.card input{
+    border-radius: 0px;
+}
+
+#login-component>.card button{
+    background-color: #4472C4;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,51 @@
+#item-view-wrapper input[type='radio']{
+    width: 25px;
+    height: 25px;
+}
+
+#item-view-wrapper input[type='text']{
+    width: 350px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#item-view-wrapper label{
+    font-size: 25px;
+}
+
+#item-view-wrapper{
+    overflow: auto;
+}
+
+
+.box{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid var(--primary);
+    width: 240px;
+    margin: 10px;
+    height: 370px;
+    position: relative;
+}
+
+
+.box .box-image{
+    width: 100%;
+    height: 200px;
+}
+
+.box .box-name{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box .box-price{
+    color: #e24b23;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box .box-rates{
+    font-size: 25px;
+    margin-bottom: 10px;
+}

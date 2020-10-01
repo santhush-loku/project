@@ -1,0 +1,61 @@
+body{
+    overflow: hidden;
+}
+
+#overview-wrapper aside{
+    background-color: #222A35;
+    height: 100%;
+    overflow: auto;
+}
+
+#overview-wrapper section{
+    background-color: #F3F3F3;
+    height: 100%;
+    overflow: auto;
+}
+
+#overview-wrapper aside .nav-item{
+    padding: 5px 15px;
+    margin: 10px 0px;
+}
+
+#overview-wrapper aside .nav-item a{
+    color: white;
+}
+
+#overview-wrapper aside .nav-item a.active{
+    font-weight: bold;
+}
+
+.item-box{
+    position: relative;
+    padding: 10px;
+    color: white;
+    height: 150px;
+}
+
+.item-box *{
+    position: absolute;
+}
+
+.item-box .item-box-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.item-box .item-box-icon{
+    width: 75px;
+    height: 75px;
+    bottom: 5px;
+}
+
+.item-box .item-box-value{
+    right: 15px;
+    bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#chart1, #chart2{
+    height: 350px;
+}
